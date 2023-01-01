@@ -1,9 +1,14 @@
 import './App.css';
+import LandingPage from './components/landingPage'
+import WhyAPc from './components/whyAPc'
+import DreamPC from './components/dreamPC'
 
 function App() {
   return (
     <div className="App">
-      <h1 className='main-heading'>Blackout's Extreme PC Building Guide</h1>
+      <LandingPage />
+      <WhyAPc />
+      <DreamPC />
     </div>
   );
 }

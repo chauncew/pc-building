@@ -1,0 +1,118 @@
+.whySection {
+    height: 100vh;
+    width: 100%;
+    background: whitesmoke;
+    /* padding-bottom: 50px; */
+}
+
+.topWhy {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: url('../images/topWhyBack.jpg')center center/cover;
+    color: #fff;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.whyLeft {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.whyLeft h1 {
+    margin-bottom: 15px;
+}
+
+.whyLeft p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+}
+
+.topWhy img {
+    height: 300px;
+    width: 300px;
+}
+
+.bottomWhy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background: url('../images/bottomWhyImage.jpg')center center/cover;
+    color: #fff;
+    height: 500px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.bottomVale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.bottomWhy h1 {
+    z-index: 100;
+    padding-bottom: 20px;
+    text-align: center;
+    /* margin-right: 36%; */
+    overflow: hidden;
+}
+
+.bottomWhy p {
+    padding-bottom: 80px;
+    text-align: center;
+    z-index: 100;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    width: 60%;
+    overflow: hidden;
+}
+
+@media(max-width: 1125px) {
+    .bottomWhy {
+        padding-left: 20px;
+    }
+    .bottomWhy p {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1070px) {
+    .topWhy {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .whyLeft {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .whyLeft h1 {
+        text-align: center;
+    }
+    .bottomWhy {
+        width: 100%;
+    }
+}
+
+@media(max-width: 350px) {
+    .bottomWhy h1 {
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,75 @@
+.dreamSection {
+    height: 100vh;
+    width: 100%;
+    background: whitesmoke;
+}
+
+.dreamSection h1 {
+    font-size: clamp(1.5rem, 2.5vw, 3rem);
+    text-align: center;
+}
+
+.topDreamInfo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.topDreamInfo img {
+    height: 100px;
+    width: 100px;
+}
+
+.dreamInfo1, .dreamInfo2, .dreamInfo3 {
+    padding: 30px;
+    width: 15%;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    background: url('../images/dreamBackground.jpg')center center/cover no-repeat;
+    color: #fff;
+    letter-spacing: 1.3px;
+    border-radius: 5px;
+}
+
+.dreamInfo1 p, .dreamInfo2 p, .dreamInfo3 p {
+    margin-top: 10px;
+    line-height: 1.3;
+    letter-spacing: 1.4px;
+    font-size: 1.15rem;
+}
+
+.bottomDreamInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 700px;
+    width: 60%;
+    margin-top: 50px;
+    margin: 0 auto;
+    background: url('../images/dreamBackground.jpg')center center/cover no-repeat;
+    color: #fff;
+    border-radius: 5px;
+}
+
+ .bottomDreamImage img {
+    height: 500px;
+    width: 500px;
+ }
+
+ .gpuImage img, .cpuImage img, .ramImage img {
+    height: 75px;
+    width: 75px;
+    border-radius: 50px;
+    color: #fff;
+ }
+
+ .gpu {
+    display: flex;
+    align-items: center;
+ }
+
+ .gpu p {
+    display: inline-block;
+ }
