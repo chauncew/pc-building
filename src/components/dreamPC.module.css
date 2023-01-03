@@ -1,19 +1,22 @@
 .dreamSection {
-    height: 100vh;
     width: 100%;
     background: whitesmoke;
+    margin-bottom: 50px;
 }
 
-.dreamSection h1 {
+.dreamHeading {
     font-size: clamp(1.5rem, 2.5vw, 3rem);
     text-align: center;
+    margin-top: 90px;
 }
 
 .topDreamInfo {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
     text-align: center;
+    padding: 0 10px;
 }
 
 .topDreamInfo img {
@@ -25,8 +28,9 @@
     padding: 30px;
     width: 15%;
     margin-top: 50px;
-    margin-left: 20px;
     margin-bottom: 50px;
+    height: 400px;
+    width: 400px;
     background: url('../images/dreamBackground.jpg')center center/cover no-repeat;
     color: #fff;
     letter-spacing: 1.3px;
@@ -42,34 +46,80 @@
 
 .bottomDreamInfo {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
-    height: 700px;
+    align-items: center;
+    flex-wrap: wrap;
     width: 60%;
-    margin-top: 50px;
     margin: 0 auto;
+    padding: 20px 0;
     background: url('../images/dreamBackground.jpg')center center/cover no-repeat;
-    color: #fff;
     border-radius: 5px;
 }
 
- .bottomDreamImage img {
-    height: 500px;
-    width: 500px;
- }
-
- .gpuImage img, .cpuImage img, .ramImage img {
-    height: 75px;
-    width: 75px;
-    border-radius: 50px;
+.bottomHeading {
     color: #fff;
- }
+    letter-spacing: 1.3px;
+}
 
- .gpu {
+.leftDreamInfo {
+    width: 50%;
+}
+
+.leftDreamInfo img {
+    height: 100%;
+    width: 100px;
+}
+
+.gpu, .cpu, .ram {
     display: flex;
     align-items: center;
- }
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
 
- .gpu p {
-    display: inline-block;
- }
+.gpu img, .cpu img, .ram img {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    object-fit: contain;
+}
+
+.gpuInfo, .cpuInfo, .ramInfo {
+    margin-left: 15px;
+}
+
+.rightDreamInfo img {
+    width: clamp(20rem, 20vw, 30rem);
+}
+
+@media(max-width: 1190) {
+    .gpu img, .cpu img, .ram img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+
+@media(max-width: 1025px) {
+    .bottomHeading {
+        text-align: center;
+    }
+    .gpu, .cpu, .ram {
+        width: 100%;
+        text-align: center;
+        /* display: block; */
+    }
+    .gpu img, .cpu img, .ram img {
+        height: 200px;
+        width: 200px;
+    }
+    .bottomDreamInfo {
+        display: block;
+        width: 100%;
+    }
+    .leftDreamInfo {
+        width: 100%;
+    }
+}
