@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '../components/parts.module.css'
 import memory from '../images/partsRam.jpg'
 import cases from '../images/partsCase.jpg'
@@ -11,14 +11,19 @@ import air from '../images/partsAir.jpg'
 import aio from '../images/partsAio.jpg'
 import wifi from '../images/partsWifi.jpg'
 import gpu from '../images/partsGpu.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
-const parts = () => {
+const Parts = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    }, [])
   return (
     <main>
         <h1 className={styles.partsHeading}>Putting The Parts Together</h1>
         <div className={styles.parts}>
             <div className={styles.parts1}>
-                <div>
+                <div data-aos="flip-left">
                     <img src={cases} alt="" />
                 </div>
                 <h2>Case</h2>
@@ -27,7 +32,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts2}>
-                <div>
+                <div data-aos="flip-left">
                     <img src={motherboard} alt="" />
                 </div>
                 <h2>Motherboard</h2>
@@ -36,7 +41,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts3}>
-                <div>
+                <div data-aos="flip-left">
                     <img src={cpu} alt="" />
                 </div>
                 <h2>CPU</h2>
@@ -45,7 +50,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts4}>
-                <div>
+                <div data-aos="flip-right">
                     <img src={memory} alt="" />
                 </div>
                 <h2>RAM</h2>
@@ -54,7 +59,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts5}>
-                <div>
+                <div data-aos="flip-right">
                     <img src={ssd} alt="" />
                 </div>
                 <h2>SSD</h2>
@@ -63,7 +68,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts6}>
-                <div>
+                <div data-aos="flip-right">
                     <img src={psu} alt="" />
                 </div>
                 <h2>PSU</h2>
@@ -72,7 +77,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts7}>
-                <div>
+                <div data-aos="flip-left">
                     <img src={air} alt="" />
                 </div>
                 <h2>Air Cooler</h2>
@@ -81,7 +86,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts8}>
-                <div>
+                <div data-aos="flip-left">
                     <img src={aio} alt="" />
                 </div>
                 <h2>AIO Cooler</h2>
@@ -90,7 +95,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts9}>
-                <div>
+                <div data-aos="flip-left">
                     <img src={gpu} alt="" />
                 </div>
                 <h2>GPU</h2>
@@ -99,7 +104,7 @@ const parts = () => {
             </div>
 
             <div className={styles.parts10}>
-                <div>
+                <div data-aos="flip-right">
                     <img src={wifi} alt="" />
                 </div>
                 <h2>WiFi</h2>
@@ -111,4 +116,4 @@ const parts = () => {
   )
 }
 
-export default parts
+export default Parts

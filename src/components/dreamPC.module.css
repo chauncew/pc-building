@@ -124,3 +124,9 @@
         width: 100%;
     }
 }
+
+@media(max-width: 300px) {
+    .dreamInfo1, .dreamInfo2, .dreamInfo3 {
+        height: 470px
+    }
+}

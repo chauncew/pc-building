@@ -112,6 +112,9 @@
 }
 
 @media(max-width: 350px) {
+    .bottomWhy {
+        height: 600px;
+    }
     .bottomWhy h1 {
         margin-top: 5px;
     }

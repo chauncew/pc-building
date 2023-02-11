@@ -1,18 +1,25 @@
 import './App.css';
 import LandingPage from './components/landingPage'
-import WhyAPc from './components/whyAPc'
-import DreamPC from './components/dreamPC'
-import Parts from './components/parts'
+import WhyAPc from './components/WhyAPc'
+import DreamPC from './components/DreamPC'
+import Parts from './components/Parts'
+import MoreInfo from './components/MoreInfo'
+import Footer from './components/Footer';
+
+
 
 function App() {
   return (
-    <div className="App">
+    <main className="App">
       <LandingPage />
       <WhyAPc />
       <DreamPC />
       <Parts />
-    </div>
+      <MoreInfo />
+      <Footer />
+    </main>
   );
 }
+
 
 export default App;

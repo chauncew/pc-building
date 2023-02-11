@@ -18,7 +18,7 @@
 
 .parts1, .parts2, .parts3, .parts4, .parts5,
 .parts6, .parts7, .parts8, .parts9, .parts10 {
-    height: 500px;
+    /* height: 500px; */
     width: 500px;
     display: flex;
     flex-direction: column;
@@ -26,6 +26,7 @@
     padding: 10px 0;
     border-top: 2px solid rgb(231, 231, 231);
     border-bottom: 2px solid rgb(231, 231, 231);
+    overflow: hidden;
 }
 
 .parts h2 {
@@ -51,5 +52,11 @@
     .parts img {
         height: 150px;
         width: 150px;
+    }
+    .partsHeading {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+        text-align: center;
     }
 }
