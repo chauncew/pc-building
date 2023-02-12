@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/pc-gaming/static/css/main.3dca013a.css",
+    "main.js": "/pc-gaming/static/js/main.6fa00428.js",
+    "static/media/20221229_084903.mp4": "/pc-gaming/static/media/20221229_084903.f5fab88aade02684cbab.mp4",
+    "static/media/moreInfoBtmImage.jpg": "/pc-gaming/static/media/moreInfoBtmImage.a11af637e451aafdb383.jpg",
+    "static/media/bottomWhyImage.jpg": "/pc-gaming/static/media/bottomWhyImage.17f89c9e01d78ce6967e.jpg",
+    "static/media/whyImage.jpg": "/pc-gaming/static/media/whyImage.1694f55aa11620064f1d.jpg",
+    "static/media/topWhyBack.jpg": "/pc-gaming/static/media/topWhyBack.676735a9d5b36486e1e6.jpg",
+    "static/media/bottomDreamImage.png": "/pc-gaming/static/media/bottomDreamImage.1c80d5579eaa945d1877.png",
+    "static/media/partsAir.jpg": "/pc-gaming/static/media/partsAir.c76257f2274f4bac9b95.jpg",
+    "static/media/gaminCase.webp": "/pc-gaming/static/media/gaminCase.919f4239c3e1f97a1f06.webp",
+    "static/media/img5.jpg": "/pc-gaming/static/media/img5.18c37cf888984f4f3e7e.jpg",
+    "static/media/dreamBackground.jpg": "/pc-gaming/static/media/dreamBackground.6218b3dd6bbb58e717a1.jpg",
+    "static/media/img1.jpg": "/pc-gaming/static/media/img1.0d33b1581af374e1ab6c.jpg",
+    "static/media/partsGpu.jpg": "/pc-gaming/static/media/partsGpu.5c8a68eefabb074ebce8.jpg",
+    "static/media/img3.jpg": "/pc-gaming/static/media/img3.6ecc80b5ce9cf13dcf6e.jpg",
+    "static/media/gamingHeadphones.png": "/pc-gaming/static/media/gamingHeadphones.eaa4f2bd0831cac5189c.png",
+    "static/media/partsCase.jpg": "/pc-gaming/static/media/partsCase.456a40dc13b4f4bc1e4f.jpg",
+    "static/media/partsCpu.webp": "/pc-gaming/static/media/partsCpu.08741eae8a096ee9aff1.webp",
+    "static/media/gamingMouse.png": "/pc-gaming/static/media/gamingMouse.08b4e894c5eae26b694c.png",
+    "static/media/partsMotherboard.jpg": "/pc-gaming/static/media/partsMotherboard.b72813564508cd586466.jpg",
+    "static/media/partsPsu.jpg": "/pc-gaming/static/media/partsPsu.8c9165dd2cf5a0472e69.jpg",
+    "static/media/partsSsd.jpg": "/pc-gaming/static/media/partsSsd.873570a472ed02e2befc.jpg",
+    "static/media/gpu.png": "/pc-gaming/static/media/gpu.945c115f6d9db0683e07.png",
+    "static/media/partsRam.jpg": "/pc-gaming/static/media/partsRam.d7965c800c5a48dea24b.jpg",
+    "static/media/partsWifi.jpg": "/pc-gaming/static/media/partsWifi.08a12d07aaa30af11361.jpg",
+    "static/media/partsAio.jpg": "/pc-gaming/static/media/partsAio.ccd401408c9ba3734d48.jpg",
+    "index.html": "/pc-gaming/index.html",
+    "main.3dca013a.css.map": "/pc-gaming/static/css/main.3dca013a.css.map",
+    "main.6fa00428.js.map": "/pc-gaming/static/js/main.6fa00428.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dca013a.css",
+    "static/js/main.6fa00428.js"
+  ]
+}
